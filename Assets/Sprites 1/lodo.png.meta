@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 01d1e3cfe7b4bbe41ad8e510a34ccb6f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6339928356801860006
+    second: lodo_0
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 81
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lodo_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 217
+        width: 84
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810525db8428ccf43b1baa2dfec15284
+      internalID: 1809753416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lodo_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 217
+        width: 84
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f800d3f9f6f8448abc81233a989264
+      internalID: -372612109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lodo_2
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 217
+        width: 84
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c472f8b6eeb6b6d4e979ae537651d4da
+      internalID: -1372812445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lodo_3
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 224
+        width: 84
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761902ad62f42ba479c0106b9c3673eb
+      internalID: -1961894689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lodo_4
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 224.25
+        width: 84.125
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3cb2f45fb61a364b8d7cb8672c37155
+      internalID: -725684376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lodo_5
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 224.25
+        width: 84.125
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff147a776278054cab2f80312c23350
+      internalID: -387565083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lodo_6
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 224.25
+        width: 84.125
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438ef06ff98d89046aaaabcff7ccbe09
+      internalID: -1598488070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lodo_7
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 224.25
+        width: 84.125
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ecb0d46d0075e74f92d3a069ffbd329
+      internalID: 238386688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lodo_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150.25
+        width: 84.125
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac72d62774b18c448969f5fc3d32a6c
+      internalID: -1930377028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lodo_9
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 150.25
+        width: 84.125
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd9c305fdaf4544286c04b39a36af1a
+      internalID: -575431071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lodo_10
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 150.25
+        width: 84.125
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b1fd4c78d8cbc40883a72c17d4102e
+      internalID: 550182243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lodo_11
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 150.25
+        width: 84.125
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1559f4038cc3e3f459ecce900cd2e022
+      internalID: 2139258292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lodo_12
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 150.25
+        width: 84.125
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9379b27fcecf8248985b15d282abd35
+      internalID: 732134182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lodo_13
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 150.25
+        width: 84.125
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1456b84126bf374dbb60d161a1a99d4
+      internalID: 584270895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lodo_14
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 150.25
+        width: 84.125
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f839ba5a2f0834f915ec2475a90430
+      internalID: -1961499484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lodo_15
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 150.25
+        width: 84.125
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e20ce3f3c1af24cb200ecdfcf4c074
+      internalID: 1912854211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lodo_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 76.25
+        width: 84.125
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8675b4dd31998484ead919ac69b43c1b
+      internalID: 1992913643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lodo_17
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 76.25
+        width: 84.125
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b5368a69988f24db22aec62cb1e78e
+      internalID: -1522339239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lodo_18
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 76.25
+        width: 84.125
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f42e0cc1b6275b4496c4c834bd420a4
+      internalID: -465804432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lodo_19
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 76.25
+        width: 84.125
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1056673b0956f644995e6aecd3092c35
+      internalID: -1684087075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lodo_20
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 76.25
+        width: 84.125
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4856a7b931db9f6458e6086ac6761f76
+      internalID: -244979702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lodo_21
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 76.25
+        width: 84.125
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67710818dd5580e439093f6e20208687
+      internalID: -40957754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lodo_22
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 76.25
+        width: 84.125
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d50647a2479094482d824486cf601c
+      internalID: -125761010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lodo_23
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 76.25
+        width: 84.125
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fab668fd09e6fe4bb2cef654ba664aa
+      internalID: 1971474710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lodo_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2.25
+        width: 84.125
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8b24d073341ee4d81766b8058e5048
+      internalID: 125694880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lodo_25
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2.25
+        width: 84.125
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fa7c8d3365b234785a37a2650e0f13
+      internalID: 92051975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lodo_26
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 2.25
+        width: 84.125
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf1978a30ed6ce4baf14ea02da0baa2
+      internalID: 67744252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lodo_27
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 2.25
+        width: 84.125
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9cf6638c9a65f34781459bf8708da0c
+      internalID: 723338264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lodo_28
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2.25
+        width: 84.125
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94a280d21e91da4bab9c85562eb9204
+      internalID: 137537788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lodo_29
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2.25
+        width: 84.125
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca784b692f3f3b439192bc7f26a08cd
+      internalID: 1467763725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lodo_30
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 2.25
+        width: 84.125
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53bc53e7f14dfe74288b2bae021bb0e8
+      internalID: 489650660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lodo_31
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 2.25
+        width: 84.125
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd54ede6f1d719a4680a185c3a1beb47
+      internalID: -110233107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 54153600afc01334a85dfd17432255da
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      lodo_0: 1809753416
+      lodo_1: -372612109
+      lodo_10: 550182243
+      lodo_11: 2139258292
+      lodo_12: 732134182
+      lodo_13: 584270895
+      lodo_14: -1961499484
+      lodo_15: 1912854211
+      lodo_16: 1992913643
+      lodo_17: -1522339239
+      lodo_18: -465804432
+      lodo_19: -1684087075
+      lodo_2: -1372812445
+      lodo_20: -244979702
+      lodo_21: -40957754
+      lodo_22: -125761010
+      lodo_23: 1971474710
+      lodo_24: 125694880
+      lodo_25: 92051975
+      lodo_26: 67744252
+      lodo_27: 723338264
+      lodo_28: 137537788
+      lodo_29: 1467763725
+      lodo_3: -1961894689
+      lodo_30: 489650660
+      lodo_31: -110233107
+      lodo_4: -725684376
+      lodo_5: -387565083
+      lodo_6: -1598488070
+      lodo_7: 238386688
+      lodo_8: -1930377028
+      lodo_9: -575431071
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

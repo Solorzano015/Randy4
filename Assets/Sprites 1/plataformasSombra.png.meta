@@ -1,0 +1,1083 @@
+fileFormatVersion: 2
+guid: abd3010a8ab8c8142b9ebd1b49c426fe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7828611327569782000
+    second: plataformasSombra_0
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 230
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: plataformasSombra_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b326dda339a990a48bdfba6764d546bc
+      internalID: 1650216754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_1
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1180.8334
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57fc292265282d54da4ade085f5bab97
+      internalID: 1249638443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_2
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1180.8334
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b52d2bf4884f4c488fb5e4524b904a9
+      internalID: -1150749494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_3
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 1180.8334
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a6fe436b7a8e14c962b93e1b720fa4
+      internalID: 2122537615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_4
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1180.8334
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2668bf1276de54bac4b8a40fc4f771
+      internalID: -715428404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_5
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 1180.8334
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0944b203825c14fa736a5eea0713aa
+      internalID: 1316321105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_6
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 1180.8334
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51cbc0f0df9f6a6418294b4e72636a99
+      internalID: -1721541506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_7
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 1180.8334
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f1a1772a00c77459ecc7aadc7ebb6b
+      internalID: 1570208123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 944.8333
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626d56c14fb3a3948a7518558ca713a3
+      internalID: 331948410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_9
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 944.8333
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9945cdf6938529e4e822c6587dc37b92
+      internalID: 479972109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_10
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 944.8333
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562d881ce59b65b41b3d7a984b7a3678
+      internalID: 260985454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_11
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 944.8333
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1bfbc143ea68a40bca7dde34afde96
+      internalID: 1485090319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_12
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 944.8333
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb7a50a1152c6342ba0ff329718c463
+      internalID: 1614100361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_13
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 944.8333
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac368c4260983de4ca982af9778630da
+      internalID: -1448898161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_14
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 944.8333
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c59a90d94aa5f409c61699130abcca
+      internalID: 163519981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_15
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 944.8333
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5947d43172bfb0458c1519535f8e8df
+      internalID: -1982587680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 708.8333
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5974c027ccb9d4f8cc5751e42346fc
+      internalID: -680630812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_17
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 708.8333
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d90ea850d401b64bb90b2de7ec5c343
+      internalID: 401574803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_18
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 708.8333
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63117de2d9563d54c80bcabf5e6bc03a
+      internalID: -1434045654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_19
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 708.8333
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce650653569c94f48ac354c2c0b0e414
+      internalID: -1713838715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_20
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 708.8333
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372e5f2987e9bf549a121f9ccb402f2a
+      internalID: 525258110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_21
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 708.8333
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63754d486b67443459d008cc9d608a56
+      internalID: -301831296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_22
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 708.8333
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c67474ef37ae84c9dfb849952a1920
+      internalID: -1794099630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_23
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 708.8333
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2bee9779aa52b4498de319d589b289e
+      internalID: 1336542288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 472.8333
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119cbf46675f5a64ba29eb57abdf7543
+      internalID: -1548514930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_25
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 472.8333
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417cdb9c011284d449b5ba58308747d2
+      internalID: 1123563603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_26
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 472.8333
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a077bc8b00f3c3418530ec025cc6f48
+      internalID: -524335631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_27
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 472.8333
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c56378d6d96f49449185a0a7c309152
+      internalID: -319007045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_28
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 472.8333
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0490d14ff65c24285a74d58ab111f1
+      internalID: -1340513115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_29
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 472.8333
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19e6740b21dd4844943065a3cc1eaf6
+      internalID: -1817718299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_30
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 472.8333
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e6b472ecdd2cb409ca9de38459864d
+      internalID: 498580939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_31
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 472.8333
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1fe7014e489e5143b3110adfe4ce310
+      internalID: -1430401872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 236.83333
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e69e23512d9dda4988b6c9d30cf52e2
+      internalID: 779945179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_33
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 236.83333
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b48862ae9f02754e92fdf4da8e47415
+      internalID: 1233409398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_34
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 236.83333
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fcb77b1f9bf3e64d9f7b7b3e896ede3
+      internalID: 229097908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_35
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 236.83333
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dbfbda49974d284a8bf18c9489094ce
+      internalID: 476730877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_36
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 236.83333
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917bece68c041a8409196609ff6ef984
+      internalID: -435488742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_37
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 236.83333
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbda533b36759cf44af0f00c7ceecec5
+      internalID: -511484305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_38
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 236.83333
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5906f452d0fb940999e2fdff13975d
+      internalID: -1043761439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_39
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 236.83333
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe57eb67c02b4c64f9df219cc292d61b
+      internalID: 457050848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_40
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 0.83332825
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728e03ac33226404fa656e5bf4b70997
+      internalID: -1952685420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_41
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 0.83332825
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639cc56ffa72d974180ed75b588b8f3f
+      internalID: -192481623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_42
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 0.83332825
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9cdf6f72304bb4438014365204d872c
+      internalID: 1949004638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformasSombra_43
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 0.83332825
+        width: 236.25
+        height: 236.16667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e678fdb2319131242b5e4bb3ae883dca
+      internalID: 796050237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 360f9a39f8423e34e99b479118d0e1e7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      plataformasSombra_0: 1650216754
+      plataformasSombra_1: 1249638443
+      plataformasSombra_10: 260985454
+      plataformasSombra_11: 1485090319
+      plataformasSombra_12: 1614100361
+      plataformasSombra_13: -1448898161
+      plataformasSombra_14: 163519981
+      plataformasSombra_15: -1982587680
+      plataformasSombra_16: -680630812
+      plataformasSombra_17: 401574803
+      plataformasSombra_18: -1434045654
+      plataformasSombra_19: -1713838715
+      plataformasSombra_2: -1150749494
+      plataformasSombra_20: 525258110
+      plataformasSombra_21: -301831296
+      plataformasSombra_22: -1794099630
+      plataformasSombra_23: 1336542288
+      plataformasSombra_24: -1548514930
+      plataformasSombra_25: 1123563603
+      plataformasSombra_26: -524335631
+      plataformasSombra_27: -319007045
+      plataformasSombra_28: -1340513115
+      plataformasSombra_29: -1817718299
+      plataformasSombra_3: 2122537615
+      plataformasSombra_30: 498580939
+      plataformasSombra_31: -1430401872
+      plataformasSombra_32: 779945179
+      plataformasSombra_33: 1233409398
+      plataformasSombra_34: 229097908
+      plataformasSombra_35: 476730877
+      plataformasSombra_36: -435488742
+      plataformasSombra_37: -511484305
+      plataformasSombra_38: -1043761439
+      plataformasSombra_39: 457050848
+      plataformasSombra_4: -715428404
+      plataformasSombra_40: -1952685420
+      plataformasSombra_41: -192481623
+      plataformasSombra_42: 1949004638
+      plataformasSombra_43: 796050237
+      plataformasSombra_5: 1316321105
+      plataformasSombra_6: -1721541506
+      plataformasSombra_7: 1570208123
+      plataformasSombra_8: 331948410
+      plataformasSombra_9: 479972109
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
