@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 6635c42583a3d7347aa9f2192a90a1b6
+guid: 2dc66308eaeb5f446be714256f61f66a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -464394070669375235
-    second: RANDYSPRITEPABLO_0
+      213: -49362979732400189
+    second: Randy_Jump_Simple-Sheet_0
+  - first:
+      213: 8618675133607508098
+    second: Randy_Jump_Simple-Sheet_1
+  - first:
+      213: 1836385787863871618
+    second: Randy_Jump_Simple-Sheet_2
+  - first:
+      213: 747166534125824559
+    second: Randy_Jump_Simple-Sheet_3
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -37,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,7 +84,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -98,13 +107,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RANDYSPRITEPABLO_0
+      name: Randy_Jump_Simple-Sheet_0
       rect:
         serializedVersion: 2
-        x: 289
-        y: 129
-        width: 452
-        height: 592
+        x: 0
+        y: 0
+        width: 121
+        height: 127
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,8 +121,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: df844fd9d042e89f0800000000000000
-      internalID: -464394070669375235
+      spriteID: 3c7def7a1a0a05ff0800000000000000
+      internalID: -49362979732400189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Randy_Jump_Simple-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 0
+        width: 121
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 288fa2dce5fab9770800000000000000
+      internalID: 8618675133607508098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Randy_Jump_Simple-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 0
+        width: 121
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 280b33cf4272c7910800000000000000
+      internalID: 1836385787863871618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Randy_Jump_Simple-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 0
+        width: 121
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2a21ae01087e5a00800000000000000
+      internalID: 747166534125824559
       vertices: []
       indices: 
       edges: []
@@ -121,7 +193,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: fb5807d9f6d7445498f28248eca46636
     internalID: 0
     vertices: []
     indices: 
@@ -129,7 +201,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      RANDYSPRITEPABLO_0: -464394070669375235
+      Randy_Jump_Simple-Sheet_0: -49362979732400189
+      Randy_Jump_Simple-Sheet_1: 8618675133607508098
+      Randy_Jump_Simple-Sheet_2: 1836385787863871618
+      Randy_Jump_Simple-Sheet_3: 747166534125824559
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

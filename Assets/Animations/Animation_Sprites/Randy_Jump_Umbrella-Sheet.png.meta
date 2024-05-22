@@ -1,22 +1,19 @@
 fileFormatVersion: 2
-guid: bf961d750b482564391fdb1c208384ef
+guid: d9e9e8aefba4c054eaf48ecc7662225b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -299323527429910560
-    second: Jump_Animation_0
+      213: -5342960697922182697
+    second: Randy_Jump_Umbrella-Sheet_0
   - first:
-      213: 7181610821578419418
-    second: Jump_Animation_1
+      213: -1497726190387176102
+    second: Randy_Jump_Umbrella-Sheet_1
   - first:
-      213: 8715317924084028672
-    second: Jump_Animation_2
+      213: -2422248164121242158
+    second: Randy_Jump_Umbrella-Sheet_2
   - first:
-      213: 3355263662815142921
-    second: Jump_Animation_3
-  - first:
-      213: 544868310495185722
-    second: Jump_Animation_4
+      213: 8448616109548412576
+    second: Randy_Jump_Umbrella-Sheet_3
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -110,7 +107,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Jump_Animation_0
+      name: Randy_Jump_Umbrella-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -118,20 +115,20 @@ TextureImporter:
         width: 149
         height: 171
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0ef8f9276d698dbf0800000000000000
-      internalID: -299323527429910560
+      spriteID: 7d1a97fad8df9d5b0800000000000000
+      internalID: -5342960697922182697
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jump_Animation_1
+      name: Randy_Jump_Umbrella-Sheet_1
       rect:
         serializedVersion: 2
         x: 149
@@ -139,20 +136,20 @@ TextureImporter:
         width: 149
         height: 171
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: adc684f0ef43aa360800000000000000
-      internalID: 7181610821578419418
+      spriteID: a5d5c2317f1073be0800000000000000
+      internalID: -1497726190387176102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jump_Animation_2
+      name: Randy_Jump_Umbrella-Sheet_2
       rect:
         serializedVersion: 2
         x: 298
@@ -160,20 +157,20 @@ TextureImporter:
         width: 149
         height: 171
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0059f99e97703f870800000000000000
-      internalID: 8715317924084028672
+      spriteID: 2d516bbd022726ed0800000000000000
+      internalID: -2422248164121242158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jump_Animation_3
+      name: Randy_Jump_Umbrella-Sheet_3
       rect:
         serializedVersion: 2
         x: 447
@@ -181,14 +178,14 @@ TextureImporter:
         width: 149
         height: 171
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9046fdd368a409e20800000000000000
-      internalID: 3355263662815142921
+      spriteID: 0ae9645c6938f3570800000000000000
+      internalID: 8448616109548412576
       vertices: []
       indices: 
       edges: []
@@ -196,7 +193,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 70a221261cc65284fae989272304b60e
+    spriteID: 6575163e354521d47b315f6c6bedf51f
     internalID: 0
     vertices: []
     indices: 
@@ -204,10 +201,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Jump_Animation_0: -299323527429910560
-      Jump_Animation_1: 7181610821578419418
-      Jump_Animation_2: 8715317924084028672
-      Jump_Animation_3: 3355263662815142921
+      Randy_Jump_Umbrella-Sheet_0: -5342960697922182697
+      Randy_Jump_Umbrella-Sheet_1: -1497726190387176102
+      Randy_Jump_Umbrella-Sheet_2: -2422248164121242158
+      Randy_Jump_Umbrella-Sheet_3: 8448616109548412576
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
