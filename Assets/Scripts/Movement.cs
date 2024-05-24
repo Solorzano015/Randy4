@@ -18,6 +18,11 @@ public class Movement : MonoBehaviour
     public float impulseMult = 0.85f; //Default = 1
     public bool canMove = false;
 
+    public bool leftRaycast;
+    public bool rightRaycast;
+    public bool roofRaycast;
+    public bool floorRaycast;
+
     public GameObject winScreen;
 
     [SerializeField] private LayerMask layerMask;
@@ -32,6 +37,7 @@ public class Movement : MonoBehaviour
     float jumpForce = 0;
     float lastJump = 0;
     bool isGrounded = false;
+    bool isInWater = false;
 
     //Dash values
 
@@ -43,6 +49,7 @@ public class Movement : MonoBehaviour
 
     float vScale;
     float hScale;
+    public int rayAmount = 2;
 
 
     float minY = -float.MaxValue;
@@ -52,25 +59,39 @@ public class Movement : MonoBehaviour
 
     //Collision functions
 
-    RaycastHit2D collisionRaycast(Vector3 pos, Vector2 direction, Vector3 offset)
+    RaycastHit2D collisionRaycast(Vector3 pos, Vector2 direction, float amountOfRays, Vector2 vectorAdder, bool testEnabled)
     {
 
-        RaycastHit2D hit1 = Physics2D.Raycast(pos + offset *  1, direction, Mathf.Infinity, layerMask);
-        RaycastHit2D hit2 = Physics2D.Raycast(pos + offset *  0, direction, Mathf.Infinity, layerMask);
-        RaycastHit2D hit3 = Physics2D.Raycast(pos + offset * -1, direction, Mathf.Infinity, layerMask);
+        RaycastHit2D returnHit = Physics2D.Raycast(new Vector2(), new Vector2());
+        Vector2 newPos = new Vector2(pos.x, pos.y);
+        float tempOffset = vectorAdder == new Vector2(1, 0) ? vRaycastOffset : hRaycastOffset;
+        float tempScale = vectorAdder == new Vector2(1, 0) ? hScale : vScale;
 
-        RaycastHit2D targetRay = hit2;
-
-        if ( hit1.distance <= targetRay.distance )
+        for (float i = 0; i < amountOfRays; i++)
         {
-            targetRay = hit1;
-        }
-        if ( hit3.distance <= targetRay.distance )
-        {
-            targetRay = hit3;
+            float mult = i / (amountOfRays - 1);
+            Vector2 testpos = ((tempOffset * vectorAdder) + newPos) + (vectorAdder * mult) * ((tempScale - tempOffset) * 2);
+
+            RaycastHit2D currentHit = Physics2D.Raycast(testpos, direction, Mathf.Infinity, layerMask);
+            if (returnHit.collider == null || returnHit.distance > currentHit.distance)
+            {
+                returnHit = currentHit;
+            }
+
         }
 
-        return targetRay;
+        if (returnHit.collider != null)
+        {
+
+            if (returnHit.collider.gameObject.tag == "onlyFloorH" && direction != Vector2.down)
+            {
+                return Physics2D.Raycast(new Vector2(), new Vector2());
+            }
+
+        }
+
+        return returnHit;
+
 
     }
 
@@ -107,7 +128,7 @@ public class Movement : MonoBehaviour
         //Paraguas
         if (Input.GetKey(KeyCode.E) && (verticalPull + jumpForce < 0))
         {
-            tempGravity *= 0.25f;
+            tempGravity *= 0.15f;
         }
 
         //Impulse
@@ -155,58 +176,62 @@ public class Movement : MonoBehaviour
 
         //Collisions
 
+        bool isInWater;
+
         //Floor collider
 
-        RaycastHit2D floorHit = collisionRaycast(transform.position + new Vector3(0, -vScale + vRaycastOffset, 0), Vector2.down, new Vector3(hScale - vRaycastOffset, 0, 0));
-            if (floorHit.collider != null)
-            {
-                minY = floorHit.point.y + vScale;
-            }
-            else
-            {
-                minY = -float.MaxValue;
-            }
+        RaycastHit2D floorHit = collisionRaycast(transform.position + new Vector3(-hScale, -vScale + vRaycastOffset, 0), Vector2.down, rayAmount, new Vector2(1, 0), floorRaycast);
+        if (floorHit.collider != null)
+        {
+            minY = floorHit.point.y + vScale;
+        }
+        else
+        {
+            minY = -float.MaxValue;
+        }
 
-            //Roof collider
+        //Roof collider
 
-            RaycastHit2D roofHit = collisionRaycast(transform.position + new Vector3(0, vScale - vRaycastOffset, 0), Vector2.up, new Vector3(hScale - vRaycastOffset, 0, 0));
-            if (roofHit.collider != null && roofHit.collider.gameObject.tag != "onlyFloorH")
-            {
-                maxY = roofHit.point.y - vScale;
-            }
-            else
-            {
-                maxY = float.MaxValue;
-            }
+        RaycastHit2D roofHit = collisionRaycast(transform.position + new Vector3(-hScale, vScale - vRaycastOffset, 0), Vector2.up, rayAmount, new Vector2(1, 0), roofRaycast);
+        if (roofHit.collider != null)
+        {
+            maxY = roofHit.point.y - vScale;
+        }
+        else
+        {
+            maxY = float.MaxValue;
+        }
 
-            //Right collider
+        //Right collider
 
-            RaycastHit2D rightHit = collisionRaycast(transform.position + new Vector3(0, hScale - hRaycastOffset, 0), Vector2.right, new Vector3(0, vScale - hRaycastOffset, 0));
-            if (rightHit.collider != null && rightHit.collider.gameObject.tag != "onlyFloorH")
-            {
-                maxX = rightHit.point.x - hScale;
-            }
-            else
-            {
-                maxX = float.MaxValue;
-            }
+        RaycastHit2D rightHit = collisionRaycast(transform.position + new Vector3(hScale - hRaycastOffset, -vScale, 0), Vector2.right, rayAmount, new Vector2(0, 1), rightRaycast);
+        if (rightHit.collider != null)
+        {
+            maxX = rightHit.point.x - hScale;
+        }
+        else
+        {
+            maxX = float.MaxValue;
+        }
 
-            //Left collider
+        //Left collider
 
-            RaycastHit2D leftHit = collisionRaycast(transform.position + new Vector3(0, -hScale + hRaycastOffset, 0), Vector2.left, new Vector3(0, vScale - hRaycastOffset, 0));
-            if (leftHit.collider != null && leftHit.collider.gameObject.tag != "onlyFloorH")
-            {
-                minX = leftHit.point.x + hScale;
-            }
-            else
-            {
-                minX = -float.MaxValue;
-            }
+        RaycastHit2D leftHit = collisionRaycast(transform.position + new Vector3(-hScale + hRaycastOffset, -vScale, 0), Vector2.left, rayAmount, new Vector2(0, 1), leftRaycast);
+        if (leftHit.collider != null)
+        {
+            minX = leftHit.point.x + hScale;
+        }
+        else
+        {
+            minX = -float.MaxValue;
+        }
 
 
+
+
+        gameObject.transform.rotation = Quaternion.Euler(0, 0, 0);
         Vector3 movement = new Vector3(horizontalInput * dashForce + Impulse.x, verticalPull + jumpForce + Impulse.y) * movementSpeed * Time.deltaTime;
         transform.Translate(movement);
-
 
 
         transform.position = new Vector3(Mathf.Clamp(transform.position.x, minX, maxX), Mathf.Clamp(transform.position.y, minY, maxY), transform.position.z);

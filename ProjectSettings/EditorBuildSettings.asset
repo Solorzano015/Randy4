@@ -11,8 +11,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: b3c77dfa87ab95c46bcef7afa1796709
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/randyNivel1.unity
     guid: 24bc82c3ac56417458fdf4ad6ef11f2f
+  - enabled: 1
+    path: Assets/Scenes/Nivel1Def.unity
+    guid: d39a635c1fd50af48a67309aa59b43af
+  - enabled: 1
+    path: Assets/Scenes/Nivel2.unity
+    guid: 589d1540b9b10ae4ca647fc02af20bdf
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

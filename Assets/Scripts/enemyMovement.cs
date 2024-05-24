@@ -76,6 +76,18 @@ public class enemyMovement : MonoBehaviour
 
     //Objects
 
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Player"))
+        {
+            hitPlayer();
+            moveTo *= -1;
+        }
+
+    }
+
     void Update()
     {
 
@@ -144,36 +156,15 @@ public class enemyMovement : MonoBehaviour
 
         //Damage collisions
 
+
         //Left damager
         if (transform.position.x == minX)
         {
-            if (leftHit.collider.gameObject.layer == LayerMask.NameToLayer("Player"))
-            {
-                hitPlayer();
-            }
             moveTo = 1;
         }
         else if (transform.position.x == maxX)
         {
-            if (rightHit.collider.gameObject.layer == LayerMask.NameToLayer("Player"))
-            {
-                hitPlayer();
-            }
             moveTo = -1;
-        }
-        else if (transform.position.y == maxY)
-        {
-            if (roofHit.collider.gameObject.layer == LayerMask.NameToLayer("Player"))
-            {
-                hitPlayer();
-            }
-        }
-        else if (transform.position.y == minY)
-        {
-            if (floorHit.collider.gameObject.layer == LayerMask.NameToLayer("Player"))
-            {
-                hitPlayer();
-            }
         }
 
         /*

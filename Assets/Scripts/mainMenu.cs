@@ -7,7 +7,7 @@ public class mainMenu : MonoBehaviour
 {
     public void Play()
     {
-        SceneManager.LoadScene("randyNivel1");
+        SceneManager.LoadScene("Nivel1Def");
     }
 
 }
