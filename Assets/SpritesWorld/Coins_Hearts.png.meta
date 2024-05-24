@@ -20,6 +20,9 @@ TextureImporter:
   - first:
       213: 2363823204005635026
     second: Coins_Hearts_5
+  - first:
+      213: 1541802550822108430
+    second: Coins_Hearts_6
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -116,8 +119,8 @@ TextureImporter:
       name: Coins_Hearts_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 67
+        x: 2
+        y: 71
         width: 72
         height: 38
       alignment: 0
@@ -137,8 +140,8 @@ TextureImporter:
       name: Coins_Hearts_1
       rect:
         serializedVersion: 2
-        x: 107
-        y: 67
+        x: 75
+        y: 70
         width: 72
         height: 38
       alignment: 0
@@ -158,10 +161,10 @@ TextureImporter:
       name: Coins_Hearts_2
       rect:
         serializedVersion: 2
-        x: 15
-        y: 21
-        width: 30
-        height: 30
+        x: 149
+        y: 69
+        width: 71
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,7 +182,7 @@ TextureImporter:
       name: Coins_Hearts_3
       rect:
         serializedVersion: 2
-        x: 63
+        x: 25
         y: 21
         width: 30
         height: 30
@@ -200,9 +203,9 @@ TextureImporter:
       name: Coins_Hearts_4
       rect:
         serializedVersion: 2
-        x: 111
+        x: 73
         y: 21
-        width: 26
+        width: 30
         height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -221,9 +224,9 @@ TextureImporter:
       name: Coins_Hearts_5
       rect:
         serializedVersion: 2
-        x: 153
+        x: 121
         y: 21
-        width: 30
+        width: 26
         height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -234,6 +237,27 @@ TextureImporter:
       bones: []
       spriteID: 2d3e4921eacfdc020800000000000000
       internalID: 2363823204005635026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coins_Hearts_6
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 21
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0dfa8b4045956510800000000000000
+      internalID: 1541802550822108430
       vertices: []
       indices: 
       edges: []
@@ -255,6 +279,7 @@ TextureImporter:
       Coins_Hearts_3: 7101066548704743396
       Coins_Hearts_4: -7059390947707244463
       Coins_Hearts_5: 2363823204005635026
+      Coins_Hearts_6: 1541802550822108430
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
