@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cats_happy_3_0: 8152620044477896388
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
